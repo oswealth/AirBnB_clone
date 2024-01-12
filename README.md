@@ -4,6 +4,7 @@ The console is the first part of the AirBnB clone project which aims to deploy a
 
 
 **Overview**
+
 This first part of the project focuses on creating a command interpreter that allows to:
 
 * create the data model.
@@ -13,10 +14,12 @@ This first part of the project focuses on creating a command interpreter that al
 
 
 **How to start it**
+
 These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
 
 
 **Description of the command interpreter:**
+
 The interface of the application is just like the  shell except that this has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 
 This command line interpreter serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
@@ -28,6 +31,7 @@ This command line interpreter serves as the frontend of the web app where users 
 * **update**
 * **destroy**
 * **count**
+
 And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
 
 * Creating new objects (ex: a new User or a new Place)
@@ -38,6 +42,7 @@ And as part of the implementation of the command line interpreter coupled with t
 
 
 **Installing**
+
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
 git clone https://github.com/jzamora5/AirBnB_clone.git
@@ -68,12 +73,15 @@ models/place.py: Place class that inherits from BaseModel
 
 models/review.py: Review class that inherits from BaseModel
 
+
 **How to use it**
+
 It can work in two different modes:
 
 **Interactive and Non-interactive.**
 
 In **Interactive mode**, the console will display a **prompt** (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again a wait for a new command. This can go indefinitely as long as the user does not exit the program.
+
 
 	$ ./console.py
 	(hbnb) help
@@ -89,6 +97,7 @@ In **Interactive mode**, the console will display a **prompt** (hbnb) indicating
 
 
 In **Non-interactive mode**, the shell will need to be run with a command input piped into its execution so that the command is run as soon as the Shell starts. In this mode no prompt will appear, and no further input will be expected from the user.
+
 
 
 	$ echo "help" | ./console.py
@@ -114,6 +123,7 @@ In **Non-interactive mode**, the shell will need to be run with a command input 
 
 
 **Learning Objectives**
+
 * How to create a Python package
 * How to create a command interpreter in Python using the cmd module
 * What is Unit testing and how to implement it in a large project
