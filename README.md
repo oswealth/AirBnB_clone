@@ -45,7 +45,7 @@ And as part of the implementation of the command line interpreter coupled with t
 
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
-git clone https://github.com/jzamora5/AirBnB_clone.git
+git clone https://github.com/oswealth/AirBnB_clone.git
 
 After cloning the repository you will have a folder called AirBnB_clone. In here there will be several files that allow the program to work.
 
